@@ -60,6 +60,9 @@ if ((a > b) && a > c) {
     alert("а саны ең үлкен")
     max = max + a;
 }
+else if ((a == b) && b == c) {
+    alert("Барлык сандар тен ")
+}
 else if ((b > a) && b > c) {
     alert("b саны ең үлкен")
     max = max + b;
@@ -69,8 +72,9 @@ else if ((c > a) && c > b) {
     max = max + c;
 }
 else{
-    alert("Баска сандар енгызып корыныз")
+    alert("Сан гана Енгызуге болады!")
 }
+
 
 if ((a < b) && a < c) {
     alert("а саны ең кышы")
@@ -83,9 +87,6 @@ else if ((b < a) && b < c) {
 else if ((c < a) && c < b) {
     alert("c саны ең кышы")
     min = min + c;
-}
-else{
-    alert("баска сан енгызып корыныз")
 }
 
 alert("бұл жерде екі саннын айырмасы = " + (max - min) )
